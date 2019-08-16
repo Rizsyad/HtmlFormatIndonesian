@@ -95,6 +95,6 @@ $(document).ready(function(){
 	script = script.replace(/tipe/g, 'type');
 	script = script.replace(/untuk/g, 'for');
 
-	$('body').html(script);
+// 	$('body').html(script);
 
 });
