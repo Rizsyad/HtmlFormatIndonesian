@@ -1,3 +1,7 @@
+/*
+	Author By: Rizsyad AR
+*/
+
 var script = $('body').html();
 
 /*
@@ -22,6 +26,7 @@ script = script.replace(/<\/areatulisan>/g, '<\/textarea>');
 /*
     heading 1 - 5
 */
+
 script = script.replace(/<tulisanbesar1/g, '<h1');
 script = script.replace(/<tulisanbesar2/g, '<h2');
 script = script.replace(/<tulisanbesar3/g, '<h3');
